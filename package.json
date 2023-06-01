@@ -6,12 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier -w ."
   },
   "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.6",
+    "dotenv": "^16.0.3",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "langchain": "^0.0.79",
     "next": "13.4.3",
+    "pdf-parse": "^1.1.1",
+    "prettier": "^2.8.8",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
